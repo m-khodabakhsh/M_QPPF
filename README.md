@@ -12,9 +12,9 @@
          QID<\t>DOCID<\t>relevance grade
       ```
       where relevance grade can be ```1``` for judged relevant documents and ```0``` for others.
- 4. run ```train.py```. The trained model will be saved in ```output``` directory.
- 5. run ```test.py```. The ranking results will be saved in ```output``` directory in the following format: 
+ 4. Run ```train.py```. The trained model will be saved in the ```output``` directory.
+ 5. Run ```test.py```. The ranking results will be saved in the ```output``` directory in the following format: 
     ```
       QID<\t>Q0<\t>DOCID<\t>rank<\t>predictedScore<\t>M-QPPF
     ```
-    To evaluate the results, you can calculate the performans of each query in terms of ```MRR@10```.
+    To evaluate the results, you can calculate the performance of each query in terms of ```MRR@10```.
