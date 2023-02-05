@@ -4,10 +4,10 @@
 ```
     query_text<\t>query_text<\t>query_MRR@10_value
 ```
-   and store them in the ```dataset``` repository.
+   and store them in the ```dataset``` folder.
 
-3. Also, we need to prepare two files of ```RetrievedwithRelevancetraink``` and ```RetrievedwithRelevancedevk``` which include the run files for ```top-k``` retrieved documents for queries in MSMARCO train and dev sets and store them in ```dataset``` repository..
-      * The runfile should have the folloing format for each query per line:
+3. Also, we need to prepare two files of ```RetrievedwithRelevancetraink``` and ```RetrievedwithRelevancedevk``` which include the run files for ```top-k``` retrieved documents for queries in MSMARCO train and dev sets and store them in the ```dataset``` folder.
+      * The run file should have the following format for each query per line:
       ```
          QID<\t>DOCID<\t>relevance grade
       ```
