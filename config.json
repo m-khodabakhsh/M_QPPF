@@ -1,0 +1,16 @@
+{
+  "learning_rate": 2e-5,
+  "dataPath": "dataset",
+  "outputPath" : "output/",
+  "bertModel" : "bert-base-uncased",
+  "seed_val": 42,
+  "Doc_per_query": 5,  
+  "epochs" : 2,
+  "epsilon_parameter" : 1e-8,
+  "num_labels" : 1,
+  "hidden_dropout_prob" : 0.1,
+  "num_warmup_steps" : 0,
+  "batch" : 32,
+  "outputName" : "dev"
+
+}
