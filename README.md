@@ -1,10 +1,10 @@
 # M_QPPF
-1. Download [MSMARCO collection](https://msmarco.blob.core.windows.net/msmarcoranking/collectionandqueries.tar.gz) ```collection.tsv``` and store it in ```dataset``` repository.
-2. We require the query, and their performance (MRR@10). To do so, we create two files named as ```train_query_mrr.tsv``` and ```train_query_mrr.tsv``` for the train and dev sets respectively as follows:
+1. Download [MSMARCO collection](https://msmarco.blob.core.windows.net/msmarcoranking/collectionandqueries.tar.gz) ```collection.tsv``` and store it in the ```dataset``` folder.
+2. We require the queries, and their performance (MRR@10). To do so, we create two files named ```train_query_mrr.tsv``` and ```train_query_mrr.tsv``` for the train and dev set respectively as follows:
 ```
     query_text<\t>query_text<\t>query_MRR@10_value
 ```
-   and store them in ```dataset``` repository.
+   and store them in the ```dataset``` repository.
 
 3. Also, we need to prepare two files of ```RetrievedwithRelevancetraink``` and ```RetrievedwithRelevancedevk``` which include the run files for ```top-k``` retrieved documents for queries in MSMARCO train and dev sets and store them in ```dataset``` repository..
       * The runfile should have the folloing format for each query per line:
